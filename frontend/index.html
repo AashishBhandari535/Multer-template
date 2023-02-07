@@ -1,0 +1,22 @@
+<body>
+    <div class="container">
+        <h1>File Upload</h1>
+        <form id='form'>
+            <div class="input-group">
+                <label for='name'>Your name</label>
+                <input  id='name' placeholder="Enter your name" />
+            </div>
+            <div class="input-group">
+                <label for='files'>Select single file</label>
+                <input id='files' type="file" >
+            </div>
+            <div class="input-group">
+                <label for='gallery'>Select multiple file</label>
+                <input id='gallery' type="file" multiple name="gallery">
+            </div>
+            <button class="submit-btn" type='submit'>Upload</button>
+        </form>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js"></script>
+    <script src='./script.js'></script>
+</body>

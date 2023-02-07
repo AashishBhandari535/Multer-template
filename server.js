@@ -45,7 +45,6 @@ app.post(
     { name: "gallery", maxCount: 2 },
   ]),
   (req, res) => {
-    console.log("My name is Aashish Bhandari");
     console.log(req.files);
     console.log(req.body);
     console.log("Successfully uploaded files");
